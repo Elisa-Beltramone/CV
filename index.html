@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-portfolio</title>
+    <link rel="stylesheet" href="CV.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="nav">
+            <h1 class="name">Elisa Beltramone</h1>
+            <ul class="ul-nav">
+                <li> <a href="#welcome-section" class="home">Home</a>
+                </li>
+                <li> <a href="#projects" class="p">Projects</a>
+                </li>
+                <li> <a href="#contact" class="c">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome-section" class="welcome">
+        <h1>Welcome</h1>
+    </section>
+    <div class="contenedor">
+        <div class="columna">
+            <p>A bit about me: </p>
+            <p>I was born on March 11, in 1989. I have an Italian and Argentinian citizenship.</p>
+            <p>I have several years of experience working as a ski instructor in different parts of the world but since
+                some time ago I have been doing some studies on programing. I had Python at university where I got into
+                this interesting world and from there I
+                have been taking other courses to learn more about some lenguages.</p>
+            <p>Just to mention a few: </p>
+            <ul>
+                <li>UTN Full Stak Developer (adjuntar certificados)</li>
+                <li>UTN PlSql </li>
+            </ul>
+            <p>I also use FreeCodeCamp you can visit my profile at <a class="project-tile" id="project-tile"
+                    href="https://www.freecodecamp.org/learn" target="_blank">FreeCodeCamp</a>.</p>
+            <p>If you want to know more you can visit me at <a id="profile-linkedin"
+                    href="www.linkedin.com/in/elisa-beltramone" class="L">Linkedin</a>.</p>
+
+        </div>
+        <div class="columna izq">
+            <img src="Pictures/photomia.jpg" alt="Una foto mia" class="fotomia">
+
+        </div>
+    </div>
+
+
+    <section class="projects" id="projects">
+        <h3>Projects</h3>
+        <div class="contenedor">
+            <div class="columna izq">
+                <a href="https://elisa-beltramone.github.io/VS-proyecto-marruecos/"> <img src="Pictures/camello.jpg"
+                        alt="proyecto marruecos" class="camello">
+                </a>
+                <!-- <p>Traveling in Marroco? I tell you all you need to know!</p> -->
+            </div>
+            <div class="columna">
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>Contact</h3>
+
+        <p>Let's keep in touch, send me a message here:</p>
+        <form class="contact-form" action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="8" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <a id="profile-link" href="https://www.freecodecamp.org/learn" target="_blank">
+            <i class="fa-brands fa-free-code-camp"></i>
+        </a>
+        <a href="https://github.com/Elisa-Beltramone" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a id="profile-linkedin" href="https://www.linkedin.com/in/elisa-beltramone/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i></a>
+    </footer>
+</body>
+
+</html>

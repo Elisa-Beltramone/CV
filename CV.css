@@ -1,0 +1,183 @@
+body {
+  background-color: #333;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: linen;
+}
+
+.nav {
+  background-color: #1a1a1a;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.name {
+  color: #7700B3;
+  text-shadow: #1A0015 4px 3px 0px;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.ul-nav li {
+  margin-left: 20px;
+}
+
+.home:hover {
+  color: #7700B3;
+  border-bottom: 2px solid #27AE60;
+}
+
+.p:hover {
+  color: #7700B3;
+  border-bottom: 2px solid #27AE60;
+}
+
+.c:hover {
+  color: #7700B3;
+  border-bottom: 2px solid #27AE60;
+}
+
+.welcome {
+  padding: 110px 10px 10px 10px;
+}
+
+.projects {
+  padding: 10px;
+}
+
+.project-tile {
+  color: #7700B3;
+}
+
+.L {
+  color: #7700B3;
+}
+
+.project-tile:hover {
+  color: #7D0000;
+  font-weight: bold;
+}
+
+.L:hover {
+  color: #7D0000;
+  font-weight: bold;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  /* Puedes ajustar el ancho máximo según tus necesidades */
+  margin: 0 auto;
+  /* Centrar el contenedor en la página */
+  display: flex;
+  /* Utilizar un diseño de caja flexible */
+}
+
+.columna {
+  flex: 1;
+  /* Hace que ambas columnas ocupen el mismo espacio */
+  padding: 20px;
+  /* Agrega un espacio alrededor del contenido de las columnas */
+}
+
+.columna.izq {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fotomia {
+  max-width: 500px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}
+
+.camello {
+  max-width: 500px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}
+
+.fotomia:hover {
+  transform: scale(1.2);
+}
+
+.contact {
+  padding: 0px 10px;
+}
+
+.contact-form {
+  padding: 10px;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+footer {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.fa-brands {
+  font-family: "Font Awesome 5 Brands";
+  color: #7D0000;
+  font-size: 1.3em;
+}
+
+.fa-brands:hover {
+  color: #FF5733;
+}
+
+button {
+  border-radius: 50px;
+  color: #7700B3;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    padding: 5px;
+  }
+
+  .content {
+    padding-top: 30px;
+  }
+}
