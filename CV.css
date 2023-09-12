@@ -72,7 +72,11 @@ a {
 }
 
 .projects {
-  padding: 10px;
+  padding: 20px;
+}
+
+.parts {
+  margin-top: 120px;
 }
 
 .project-tile {
@@ -130,12 +134,22 @@ a {
   height: auto;
 }
 
+li  {
+  list-style: none;
+}
+
+.piefoto {
+  margin-top: 10px;
+  text-align: center; 
+}
+
 .fotomia:hover {
   transform: scale(1.2);
 }
 
 .contact {
   padding: 0px 10px;
+  margin-top: 60px;
 }
 
 .contact-form {
@@ -154,7 +168,7 @@ footer {
   display: flex;
   padding: 10px 0;
   justify-content: space-evenly;
-  margin: 20px;
+  margin: 50px;
 }
 
 .fa-brands {
