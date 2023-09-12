@@ -194,4 +194,8 @@ button {
   .content {
     padding-top: 30px;
   }
+
+  body {
+    font-size: 16px;
+  }
 }
