@@ -90,20 +90,21 @@ li {
 
 .contenedor {
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   /* Puedes ajustar el ancho máximo según tus necesidades */
   margin: 0 auto;
   /* Centrar el contenedor en la página */
   display: flex;
   /* Utilizar un diseño de caja flexible */
-  flex-direction: column; 
+ 
 }
 
 .columna {
-  flex: 1;
+ 
   /* Hace que ambas columnas ocupen el mismo espacio */
   padding: 20px;
   /* Agrega un espacio alrededor del contenido de las columnas */
+  
 }
 
 .columna.izq {
@@ -111,14 +112,16 @@ li {
   display: flex;
   justify-content: center;
  
+ 
 }
 
 .fotomia {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 500px;
+  max-height: 350px;
   width: auto;
   height: auto;
   display: flex;
+ 
 }
 
 .camello {
