@@ -96,6 +96,7 @@ li {
   /* Centrar el contenedor en la página */
   display: flex;
   /* Utilizar un diseño de caja flexible */
+  flex-direction: column; 
 }
 
 .columna {
@@ -109,7 +110,7 @@ li {
   align-items: center;
   display: flex;
   justify-content: center;
-  display: flex;
+ 
 }
 
 .fotomia {
