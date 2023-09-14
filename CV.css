@@ -71,6 +71,10 @@ a {
   padding: 110px 10px 10px 10px;
 }
 
+li {
+  padding: 10px;
+}
+
 .projects {
   padding: 20px;
 }
@@ -79,20 +83,7 @@ a {
   margin-top: 120px;
 }
 
-.project-tile {
-  color: #7700B3;
-}
-
-.L {
-  color: #7700B3;
-}
-
-.project-tile:hover {
-  color: #7D0000;
-  font-weight: bold;
-}
-
-.L:hover {
+.certificates:hover {
   color: #7D0000;
   font-weight: bold;
 }
