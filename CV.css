@@ -97,11 +97,12 @@ li {
   /* Centrar el contenedor en la página */
   display: flex;
   /* Utilizar un diseño de caja flexible */
+  flex-wrap: wrap;
  
 }
 
 .columna {
- 
+  flex: 1;
   /* Hace que ambas columnas ocupen el mismo espacio */
   padding: 20px;
   /* Agrega un espacio alrededor del contenido de las columnas */
@@ -109,6 +110,7 @@ li {
 }
 
 .columna.izq {
+  flex: 1;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -186,7 +188,7 @@ footer {
   color: #FF5733;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #navbar {
     padding: 5px;
   }
@@ -198,4 +200,4 @@ footer {
   body {
     font-size: 16px;
   }
-}
+} */
