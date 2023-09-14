@@ -39,18 +39,20 @@ a {
 .name {
   color: #7700B3;
   text-shadow: #1A0015 4px 3px 0px;
-  padding 20px;
+  padding 10px;
 }
 
 .ul-nav {
   list-style: none;
   display: flex;
   margin-left: auto;
-  margin-right: 2rem;
+  margin-right: 3%;
+  width: auto;
+  height: auto;
 }
 
 .ul-nav li {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .home:hover {
@@ -69,7 +71,7 @@ a {
 }
 
 .welcome {
-  padding: 110px 10px 10px 20px;
+  padding: 135px 10px 10px 20px;
 }
 
 li {
@@ -194,7 +196,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .columna .columna.izq {
+  .columna .columna.izq header {
       flex-basis: 100%; /* Hace que las columnas ocupen todo el ancho en pantallas pequeñas */
   }
 }
