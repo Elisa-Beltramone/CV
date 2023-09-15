@@ -1,5 +1,5 @@
 body {
-  background-color: #333;
+  background: linear-gradient(to bottom, #445858, #07010c);
   color: #ffffff;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -25,7 +25,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: linen;
+  color: rgb(78, 161, 99);
 }
 
 .nav {
@@ -34,12 +34,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 10; 
 }
 
 .name {
   color: #7700B3;
-  text-shadow: #1A0015 4px 3px 0px;
-  padding 10px;
+  text-shadow: #3a032f 4px 3px 0px;
+
 }
 
 .ul-nav {
@@ -78,14 +79,6 @@ li {
   padding: 10px;
 }
 
-.projects {
-  padding: 10px;
-}
-
-.parts {
-  margin-top: 120px;
-}
-
 .certificates:hover {
   color: #7D0000;
   font-weight: bold;
@@ -106,7 +99,7 @@ li {
 .columna {
   flex: 1;
   /* Hace que ambas columnas ocupen el mismo espacio */
-  padding: 20px;
+  padding: 0 20px;
   /* Agrega un espacio alrededor del contenido de las columnas */
 }
 
@@ -125,8 +118,17 @@ li {
   display: flex;
 }
 
+.projects {
+  padding: 20px 20px 50px 20px;
+}
+
+.parts {
+  margin-top: 120px;
+}
+
 .camello:hover {
   transform: scale(1.2);
+  z-index: 3;
 }
 
 .camello {
@@ -145,6 +147,8 @@ li  {
 .piefoto {
   margin-top: 15px;
   text-align: center; 
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #contact {
