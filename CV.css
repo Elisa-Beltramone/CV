@@ -169,12 +169,12 @@ li  {
 }
 
 #contact {
- padding: 0 10px;
+ padding: 0 20px;
 
 }
 
-.contact {
-  padding: 0px 10px;
+.form {
+  padding: 0px 20px;
 }
 
 .contact-form {
@@ -189,6 +189,16 @@ label {
   display: flex;
   font-weight: bold;
   margin-bottom: 5px;
+}
+input {
+  /* margin: 2px; */
+}
+
+textarea {
+  min-width: 175px;
+  max-width: 250px;
+  max-height: 200px;
+
 }
 
 .button {
