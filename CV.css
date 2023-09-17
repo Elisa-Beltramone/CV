@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #445858, #07010c);
+  background: linear-gradient(to bottom, #5d4a70, #290b42);
   color: #ffffff;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,6 +9,7 @@ body {
 header {
   position: fixed;
   width: 100%;
+  z-index: 9;
 }
 
 h1 {
@@ -25,21 +26,24 @@ h6 {
 
 a {
   text-decoration: none;
-  color: rgb(78, 161, 99);
+  color: rgb(78, 161, 154);
 }
 
 .nav {
-  background-color: #1a1a1a;
+  background-color: #032d46;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   z-index: 10; 
+  position: fixed;
+  width: 100%;
 }
 
 .name {
-  color: #7700B3;
-  text-shadow: #3a032f 4px 3px 0px;
+  color: #a42bbd;
+  text-shadow: #3f3441 4px 3px 0px;
+  z-index: 5;
 
 }
 
@@ -72,7 +76,20 @@ a {
 }
 
 .welcome {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(3em);
+  animation: aparecer 1s ease-out forwards;
   padding: 135px 10px 10px 20px;
+  color: #cfa7e9;
+ 
+}
+
+@keyframes aparecer {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 
 li {
@@ -174,11 +191,10 @@ label {
   margin-bottom: 5px;
 }
 
-button {
+.button {
   border-radius: 50px;
   color: #7700B3;
   display: flex;
-
 }
 
 footer {
