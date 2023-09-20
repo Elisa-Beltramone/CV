@@ -35,7 +35,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  z-index: 10; 
+  z-index: 10;
   position: fixed;
   width: 100%;
 }
@@ -51,7 +51,7 @@ a {
   list-style: none;
   display: flex;
   margin-left: auto;
-  margin-right: 3%;
+  margin-right: 5%;
   width: auto;
   height: auto;
 }
@@ -82,13 +82,13 @@ a {
   animation: aparecer 1s ease-out forwards;
   padding: 135px 10px 10px 20px;
   color: #cfa7e9;
- 
+
 }
 
 @keyframes aparecer {
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -110,7 +110,7 @@ li {
   display: flex;
   /* Utilizar un diseño de caja flexible */
   flex-wrap: wrap;
- 
+
 }
 
 .columna {
@@ -157,19 +157,25 @@ li {
   padding: 0;
 }
 
-li  {
+li {
   list-style: none;
 }
 
-.piefoto {
+li.projects {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pieFoto {
   margin-top: 15px;
-  text-align: center; 
+  text-align: center;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
 #contact {
- padding: 0 20px;
+  padding: 0 20px;
 
 }
 
@@ -190,6 +196,7 @@ label {
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 input {
   /* margin: 2px; */
 }
@@ -205,6 +212,8 @@ textarea {
   border-radius: 50px;
   color: #7700B3;
   display: flex;
+  /* justify-content: center;
+  align-items: center; */ 
 }
 
 footer {
@@ -225,8 +234,9 @@ footer {
   color: #FF5733;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .columna .columna.izq header {
-      flex-basis: 100%; /* Hace que las columnas ocupen todo el ancho en pantallas pequeñas */
+    flex-basis: 100%;
+    /* Hace que las columnas ocupen todo el ancho en pantallas pequeñas */
   }
 }
