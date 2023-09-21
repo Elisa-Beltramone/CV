@@ -198,7 +198,8 @@ label {
 }
 
 input {
-  /* margin: 2px; */
+  margin: 2px;
+  
 }
 
 textarea {
@@ -214,6 +215,10 @@ textarea {
   display: flex;
   /* justify-content: center;
   align-items: center; */ 
+}
+
+button:hover {
+  opacity: 0.6;
 }
 
 footer {

@@ -1,7 +1,28 @@
 {
   "dependencies": {
     "express": "^4.18.2",
-    "nodemailer": "^6.9.5",
+    "nodemailer": "^6.9.5"
+  },
+  "name": "vs-proyecto-cv",
+  "description": "Este es mi CV",
+  "version": "1.0.0",
+  "main": "cv.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elisa-Beltramone/VS-proyecto-CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elisa-Beltramone/VS-proyecto-CV/issues"
+  },
+  "homepage": "https://github.com/Elisa-Beltramone/VS-proyecto-CV#readme",
+  "devDependencies": {
     "nodemon": "^3.0.1"
   }
 }
