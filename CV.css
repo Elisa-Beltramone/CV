@@ -127,6 +127,21 @@ li {
   justify-content: center;
 }
 
+.preview {
+  width: 100%; /* Ajusta el ancho del iframe */
+  height: 100%; /* Ajusta la altura del iframe */
+  border: 1px solid #ccc; /* Agrega un borde al iframe */
+}
+
+iframe {
+  max-width: 350px;
+  max-height: 250px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  padding: 0;
+}
+
 .fotomia {
   max-width: 500px;
   max-height: 350px;
