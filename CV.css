@@ -45,8 +45,7 @@ a {
   color: #a42bbd;
   text-shadow: #3f3441 4px 3px 0px;
   z-index: 5;
-
-  }
+}
 
 .ul-nav {
   list-style: none;
@@ -102,6 +101,11 @@ li {
   font-weight: bold;
 }
 
+.fa-brands.skill {
+  font-size: 4em;
+  padding: 3px;
+}
+
 .contenedor {
   width: 100%;
   /* max-width: 1200px; */
@@ -129,9 +133,12 @@ li {
 }
 
 .preview {
-  width: 100%; /* Ajusta el ancho del iframe */
-  height: 100%; /* Ajusta la altura del iframe */
-  border: 1px solid #ccc; /* Agrega un borde al iframe */
+  width: 100%;
+  /* Ajusta el ancho del iframe */
+  height: 100%;
+  /* Ajusta la altura del iframe */
+  border: 1px solid #ccc;
+  /* Agrega un borde al iframe */
 }
 
 iframe {
@@ -215,7 +222,7 @@ label {
 
 input {
   margin: 2px;
-  
+
 }
 
 textarea {
@@ -230,7 +237,7 @@ textarea {
   color: #7700B3;
   display: flex;
   /* justify-content: center;
-  align-items: center; */ 
+  align-items: center; */
 }
 
 button:hover {
@@ -248,7 +255,7 @@ footer {
 .fa-brands {
   font-family: "Font Awesome 5 Brands";
   color: #7D0000;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 .fa-brands:hover {
@@ -260,10 +267,9 @@ footer {
     flex-basis: 100%;
     /* Hace que las columnas ocupen todo el ancho en pantallas pequeñas */
   }
-}
 
-@media (max-width: 767px) {
   .name {
-    align-items: flex-start; /* Alinea los nombres arriba */
+    align-items: flex-start;
+    /* Alinea los nombres arriba */
   }
 }
