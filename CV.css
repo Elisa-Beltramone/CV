@@ -127,7 +127,7 @@ li {
 
 .columna.izq {
   flex: 1;
-  align-items: center;
+  align-items: top;
   display: flex;
   justify-content: center;
 }
@@ -153,6 +153,8 @@ iframe {
 .fotomia {
   max-width: 500px;
   max-height: 350px;
+  min-width: 300px;
+  min-height: 300px;
   width: auto;
   height: auto;
   display: flex;
